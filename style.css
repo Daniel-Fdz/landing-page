@@ -30,7 +30,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -64,4 +64,56 @@ li a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+/* --- HERO STYLES ---*/
+
+#hero {
+  display: flex;
+  align-items: center;
+  background-color: #1F2937;
+  height: 400px;
+}
+
+#hero .container {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.hero-description,
+.hero-image {
+  flex: 1;
+}
+
+.hero-description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  color: #F9FAF8;
+}
+
+.hero-description p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-description button {
+  flex-grow: 0;
+  font-size: 18px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #595f68;
+  color: #E5E7EB;
+  
 }
