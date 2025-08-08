@@ -140,6 +140,10 @@ li a {
   gap: 50px;
 }
 
+.info-content p {
+  margin-top: 5px;
+}
+
 .info-content div {
   flex-basis: 150px;
 }
@@ -149,4 +153,37 @@ li a {
   height: 150px;
   border: 3px solid #3882F6;
   border-radius: 10px;
+}
+
+/* --- QUOTE STYLES ---*/
+
+#quote {
+  background-color: #E5E7EB;
+}
+
+#quote .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.quote-content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  padding: 0 120px;
+}
+
+.quote-content blockquote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-content blockquote span {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  margin-left: auto;
 }
